@@ -1,3 +1,11 @@
+<?php
+
+if ( function_exists( 'date_default_timezone_set' ) ) {
+    date_default_timezone_set('Asia/Jakarta');
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -32,7 +40,7 @@
     <link rel="stylesheet" href="<?php echo base_url()?>assets/css/hamburgers/hamburgers.min.css">
     <link rel="stylesheet" href="<?php echo base_url()?>assets/css/slick.css">
     <link rel="stylesheet" href="<?php echo base_url()?>assets/css/jquery.fancybox.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 
 
     <!-- CSS Unify Theme -->
@@ -47,86 +55,18 @@
       <header id="js-header" class="u-header">
         <div class="u-header__section">
           <!-- Topbar -->
-          <div class="g-bg-main">
+          <div class="g-bg-blue g-pt-5 g-pb-5">
             <div class="container g-py-5">
               <ul class="list-inline d-flex align-items-center g-mb-0">
                 <li class="list-inline-item d-none d-lg-inline-block">
-                  <a class="u-link-v5 g-brd-around g-brd-white-opacity-0_2 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 g-rounded-20 text-uppercase g-px-20 g-py-10" href="page-apply-1.html">Apply for Fall intake</a>
+                  <a class="u-link-v5 g-brd-around g-brd-black-opacity-0_2 g-color-black-opacity-0_7 g-color-black--hover g-font-size-12 g-rounded-20 text-uppercase g-px-20 g-py-10" href="page-apply-1.html"><b>Tools View Mobile</b></a>
                 </li>
 
-                <!-- Language -->
-                <li class="list-inline-item g-pos-rel ml-lg-auto">
-                  <a id="language-dropdown-invoker" class="d-none d-sm-flex align-items-center u-link-v5 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 text-uppercase g-pl-0 g-pl-10--lg g-pr-10 g-py-15" href="#"
-                     aria-controls="language-dropdown"
-                     aria-haspopup="true"
-                     aria-expanded="false"
-                     data-dropdown-event="hover"
-                     data-dropdown-target="#language-dropdown"
-                     data-dropdown-type="css-animation"
-                     data-dropdown-duration="0"
-                     data-dropdown-hide-on-scroll="true"
-                     data-dropdown-animation-in="fadeIn"
-                     data-dropdown-animation-out="fadeOut">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="11" width="27" viewBox="0 0 640 480">
-                      <defs>
-                        <clipPath id="a">
-                          <path fill-opacity=".67" d="M-85.333 0h682.67v512h-682.67z"/>
-                        </clipPath>
-                      </defs>
-                      <g clip-path="url(#a)" transform="translate(80) scale(.94)">
-                        <g stroke-width="1pt">
-                          <path fill="#006" d="M-256 0H768.02v512.01H-256z"/>
-                          <path d="M-256 0v57.244l909.535 454.768H768.02V454.77L-141.515 0H-256zM768.02 0v57.243L-141.515 512.01H-256v-57.243L653.535 0H768.02z" fill="#fff"/>
-                          <path d="M170.675 0v512.01h170.67V0h-170.67zM-256 170.67v170.67H768.02V170.67H-256z" fill="#fff"/>
-                          <path d="M-256 204.804v102.402H768.02V204.804H-256zM204.81 0v512.01h102.4V0h-102.4zM-256 512.01L85.34 341.34h76.324l-341.34 170.67H-256zM-256 0L85.34 170.67H9.016L-256 38.164V0zm606.356 170.67L691.696 0h76.324L426.68 170.67h-76.324zM768.02 512.01L426.68 341.34h76.324L768.02 473.848v38.162z" fill="#c00"/>
-                        </g>
-                      </g>
-                    </svg>
-                    English
-                    <i class="g-ml-3 fa fa-angle-down"></i>
-                  </a>
-
-                  <ul id="language-dropdown" class="list-unstyled u-shadow-v39 g-brd-around g-brd-4 g-brd-white g-bg-secondary g-pos-abs g-left-0 g-z-index-99 g-mt-5"
-                      aria-labelledby="language-dropdown-invoker">
-                    <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
-                      <a class="nav-link d-flex align-items-center g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="#">
-                        <svg class="mr-1 g-ml-minus-10" xmlns="http://www.w3.org/2000/svg" height="11" width="27" viewBox="0 0 640 480">
-                          <defs>
-                            <clipPath id="b">
-                              <path fill-opacity=".67" d="M-85.333 0h682.67v512h-682.67z"/>
-                            </clipPath>
-                          </defs>
-                          <g clip-path="url(#b)" transform="translate(80) scale(.94)">
-                            <g stroke-width="1pt">
-                              <path fill="#006" d="M-256 0H768.02v512.01H-256z"/>
-                              <path d="M-256 0v57.244l909.535 454.768H768.02V454.77L-141.515 0H-256zM768.02 0v57.243L-141.515 512.01H-256v-57.243L653.535 0H768.02z" fill="#fff"/>
-                              <path d="M170.675 0v512.01h170.67V0h-170.67zM-256 170.67v170.67H768.02V170.67H-256z" fill="#fff"/>
-                              <path d="M-256 204.804v102.402H768.02V204.804H-256zM204.81 0v512.01h102.4V0h-102.4zM-256 512.01L85.34 341.34h76.324l-341.34 170.67H-256zM-256 0L85.34 170.67H9.016L-256 38.164V0zm606.356 170.67L691.696 0h76.324L426.68 170.67h-76.324zM768.02 512.01L426.68 341.34h76.324L768.02 473.848v38.162z" fill="#c00"/>
-                            </g>
-                          </g>
-                        </svg>
-                        English
-                      </a>
-                    </li>
-                    <li class="dropdown-item g-px-0 g-py-2">
-                      <a class="nav-link d-flex align-items-center g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="#">
-                        <svg class="mr-1 g-ml-minus-10" xmlns="http://www.w3.org/2000/svg" height="11" width="27" viewBox="0 0 640 480">
-                          <g fill-rule="evenodd" stroke-width="1pt">
-                            <path fill="#fff" d="M0 0h640v480H0z"/>
-                            <path fill="#0039a6" d="M0 160.003h640V480H0z"/>
-                            <path fill="#d52b1e" d="M0 319.997h640V480H0z"/>
-                          </g>
-                        </svg>
-                        Russian
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <!-- End Language -->
+                
 
                 <!-- Jump To -->
                 <li class="list-inline-item g-pos-rel">
-                  <a id="jump-to-dropdown-invoker" class="d-block d-lg-none u-link-v5 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 text-uppercase g-py-7" href="#"
+                  <a id="jump-to-dropdown-invoker" class="d-block d-lg-none u-link-v5 g-color-black-opacity-0_7 g-color-black--hover g-font-size-12 text-uppercase g-py-7" href="#"
                      aria-controls="jump-to-dropdown"
                      aria-haspopup="true"
                      aria-expanded="false"
@@ -137,52 +77,56 @@
                      data-dropdown-hide-on-scroll="true"
                      data-dropdown-animation-in="fadeIn"
                      data-dropdown-animation-out="fadeOut">
-                    Jump To
+                    Pilih
                     <i class="g-ml-3 fa fa-angle-down"></i>
                   </a>
                   <ul id="jump-to-dropdown" class="list-unstyled u-shadow-v39 g-brd-around g-brd-4 g-brd-white g-bg-secondary g-pos-abs g-left-0 g-z-index-99 g-mt-13"
                       aria-labelledby="jump-to-dropdown-invoker">
                     <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
-                      <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="page-apply-1.html">Apply Now</a>
+                      <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="page-apply-1.html"><i class="fas fa-tachometer-alt fa-2x"></i></a>
+                    </li>
+                    
+                    <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
+                      <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="page-research-1.html"><i class="fas fa-lock fa-2x"></i></a>
                     </li>
                     <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
-                      <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="page-campus-life-1.html">Campus Life</a>
+                      <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="page-help-1.html"><i class="fas fa-cogs fa-2x "></i></a>
                     </li>
                     <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
-                      <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="page-research-1.html">Research</a>
+                      <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="page-help-1.html"><i class="fab fa-whatsapp fa-2x"></i></a>
                     </li>
-                    <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
-                      <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="page-help-1.html">Help</a>
-                    </li>
-                    <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
-                      <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="page-contacts-1.html">Contacts</a>
-                    </li>
-                    <li class="dropdown-item g-px-0 g-py-2">
-                      <a class="nav-link g-color-white g-bg-primary g-bg-primary-light-v1--hover g-font-size-default" href="page-signin-1.html">Sign in</a>
-                    </li>
+                    
                   </ul>
                 </li>
                 <!-- End Jump To -->
-
+               
                 <!-- Links -->
+
+
                 <li class="list-inline-item d-none d-lg-inline-block">
-                  <a class="u-link-v5 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 text-uppercase g-px-10 g-py-15" href="page-campus-life-1.html">Campus Life</a>
+                  <a class="u-link-v5 u-shadow-v19 g-color-white--hover g-bg-white g-bg-orange--hover g-font-size-12 text-uppercase g-rounded-20 g-px-18 g-py-8 g-ml-10" href="https://api.whatsapp.com/send?phone=6281519051381" data-toggle="tooltip" data-placement="bottom" title="WhatsApp"><i class="fab fa-whatsapp"></i> 081519051381</a>
                 </li>
                 <li class="list-inline-item d-none d-lg-inline-block">
-                  <a class="u-link-v5 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 text-uppercase g-px-10 g-py-15" href="page-research-1.html">Research</a>
+                  <a class="u-link-v5 u-shadow-v19 g-color-white--hover g-bg-white g-bg-orange--hover g-font-size-12 text-uppercase g-rounded-20 g-px-18 g-py-8 g-ml-10" href="page-signin-1.html" data-toggle="tooltip" data-placement="bottom" title="Hotline"><i class="fas fa-phone-square fa-lg"></i> Hotline 021-29041818</a>
                 </li>
                 <li class="list-inline-item d-none d-lg-inline-block">
-                  <a class="u-link-v5 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 text-uppercase g-px-10 g-py-15" href="page-help-1.html">Help</a>
+                  <a class="u-link-v5 u-shadow-v19 g-color-white--hover g-bg-white g-bg-orange--hover g-font-size-12 text-uppercase g-rounded-20 g-px-18 g-py-8 g-ml-10" href="page-signin-1.html" data-toggle="tooltip" data-placement="bottom" title="Email"><i class="fas fa-envelope"></i> info@indotrans.net.id</a>
+                </li>
+
+                <!-- Tools -->
+                <li class="list-inline-item d-none d-lg-inline-block">
+                  <a class="u-link-v5 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 text-uppercase g-px-10 g-py-15" href="page-campus-life-1.html" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Speedtest"><i class="fas fa-tachometer-alt fa-2x"></i></a>
                 </li>
                 <li class="list-inline-item d-none d-lg-inline-block">
-                  <a class="u-link-v5 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 text-uppercase g-px-10 g-py-15" href="page-contacts-1.html">Contacts</a>
+                  <a class="u-link-v5 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 text-uppercase g-px-10 g-py-15" href="page-research-1.html" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Cacti"><i class="fas fa-lock fa-2x"></i></a>
                 </li>
                 <li class="list-inline-item d-none d-lg-inline-block">
-                  <a class="u-link-v5 u-shadow-v19 g-color-white--hover g-bg-white g-bg-primary--hover g-font-size-12 text-uppercase g-rounded-20 g-px-18 g-py-8 g-ml-10" href="page-signin-1.html">Sign in</a>
+                  <a class="u-link-v5 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 text-uppercase g-px-10 g-py-15" href="page-help-1.html" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Looking Glass"><i class="fas fa-cogs fa-2x "></i></a>
                 </li>
+                
                 <!-- End Links -->
 
-                <!-- Search -->
+                <!-- Search 
                 <li class="list-inline-item g-ml-15--lg ml-auto">
                   <form id="searchform-1" class="input-group u-shadow-v19 g-brd-primary--focus g-rounded-20">
                     <input class="form-control g-brd-none g-bg-white g-font-size-12 text-uppercase g-rounded-left-20 g-pl-20 g-py-9" type="text" placeholder="Search here ...">
@@ -191,7 +135,7 @@
                     </button>
                   </form>
                 </li>
-                <!-- End Search -->
+                 End Search -->
               </ul>
             </div>
           </div>
@@ -226,6 +170,18 @@
               <!-- Navigation -->
               <div id="navBar" class="collapse navbar-collapse">
                 <ul class="navbar-nav align-items-lg-center g-py-30 g-py-0--lg ml-auto">
+                  
+
+                  <li class="nav-item">
+                    <a class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-px-15--lg g-py-10 g-py-30--lg" href="page-programs-1.html">
+                      Beranda
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-px-15--lg g-py-10 g-py-30--lg" href="page-future-students-1.html">
+                      Tentang Kami
+                    </a>
+                  </li>
                   <!-- Pages - Mega Menu -->
                   <li class="nav-item hs-has-mega-menu"
                       data-animation-in="fadeIn"
@@ -234,33 +190,39 @@
                     <a id="mega-menu-label-1" class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-px-15--lg g-py-10 g-py-30--lg" href="#!"
                        aria-haspopup="true"
                        aria-expanded="false">
-                      Pages
+                      Produk dan Layanan
                       <i class="hs-icon hs-icon-arrow-bottom g-font-size-11 g-ml-7"></i>
                     </a>
 
                     <!-- Mega Menu -->
                     <div class="w-100 hs-mega-menu u-shadow-v39 g-brd-around g-brd-7 g-brd-white g-bg-secondary g-text-transform-none g-pa-30 g-pa-50--lg g-my-20 g-my-0--lg" aria-labelledby="mega-menu-label-1">
-                      <span class="d-block h1 g-brd-bottom g-brd-2 g-brd-main pb-2 mb-5">Pages</span>
+                      <span class="d-block h1 g-brd-bottom g-brd-2 g-brd-main pb-2 mb-5">Produk dan Layanan Kami</span>
 
                       <div class="row">
-                        <div class="col-sm-6 col-lg-3">
+                        <div class="col-lg-6">
                           <!-- Links -->
                           <ul class="list-unstyled g-pr-30 mb-0">
                             <li class="py-2">
                               <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-programs-1.html">
-                                Programs
+                                Internet Dedicated
                                 <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
                               </a>
                             </li>
                             <li class="py-2">
                               <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-future-students-1.html">
-                                Future Students
+                                Internet Smart Home
                                 <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
                               </a>
                             </li>
                             <li class="py-2">
                               <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-current-students-1.html">
-                                Current Students
+                                Data Center
+                                <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
+                              </a>
+                            </li>
+                            <li class="py-2">
+                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-current-students-1.html">
+                                SOHO
                                 <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
                               </a>
                             </li>
@@ -268,24 +230,24 @@
                           <!-- End Links -->
                         </div>
 
-                        <div class="col-sm-6 col-lg-3">
+                        <div class="col-lg-6">
                           <!-- Links -->
                           <ul class="list-unstyled g-pr-30 mb-0">
                             <li class="py-2">
                               <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-faculty-and-staff-1.html">
-                                Faculty &amp; Staff
+                                Gudang APP
                                 <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
                               </a>
                             </li>
                             <li class="py-2">
                               <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-events-1.html">
-                                Events
+                                Pelatihan dan Narasumber Uji Kompetensi
                                 <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
                               </a>
                             </li>
                             <li class="py-2">
                               <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-alumni-1.html">
-                                Alumni
+                                Video Production
                                 <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
                               </a>
                             </li>
@@ -293,97 +255,25 @@
                           <!-- End Links -->
                         </div>
 
-                        <div class="col-sm-6 col-lg-3">
-                          <!-- Links -->
-                          <ul class="list-unstyled g-pr-30 mb-0">
-                            <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-campus-life-1.html">
-                                Campus Life
-                                <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
-                              </a>
-                            </li>
-                            <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-research-1.html">
-                                Research
-                                <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
-                              </a>
-                            </li>
-                            <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-apply-1.html">
-                                Apply
-                                <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
-                              </a>
-                            </li>
-                          </ul>
-                          <!-- End Links -->
-                        </div>
+                        
 
-                        <div class="col-sm-6 col-lg-3">
-                          <!-- Links -->
-                          <ul class="list-unstyled g-pr-30 mb-0">
-                            <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-contacts-1.html">
-                                Contacts
-                                <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
-                              </a>
-                            </li>
-                            <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-help-1.html">
-                                Help
-                                <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
-                              </a>
-                            </li>
-                            <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-signin-1.html">
-                                Signin
-                                <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
-                              </a>
-                            </li>
-                            <li class="py-2">
-                              <a class="d-flex g-brd-top g-brd-primary g-color-main g-color-primary--hover g-text-underline--none--hover g-pt-15 g-pb-5" href="../../index.html">
-                                Main
-                                <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
-                              </a>
-                            </li>
-                          </ul>
-                          <!-- End Links -->
-                        </div>
+                        
                       </div>
                     </div>
                     <!-- End Mega Menu -->
                   </li>
                   <!-- End Pages - Mega Menu -->
-
-                  <li class="nav-item">
-                    <a class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-px-15--lg g-py-10 g-py-30--lg" href="page-programs-1.html">
-                      Programs
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-px-15--lg g-py-10 g-py-30--lg" href="page-future-students-1.html">
-                      Future Students
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-px-15--lg g-py-10 g-py-30--lg" href="page-current-students-1.html">
-                      Current Students
-                    </a>
-                  </li>
                   <li class="nav-item">
                     <a class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-px-15--lg g-py-10 g-py-30--lg" href="page-faculty-and-staff-1.html">
-                      Faculty &amp; Staff
+                      Klien Kami
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-px-15--lg g-py-10 g-py-30--lg" href="page-events-1.html">
-                      Events
+                      Kontak
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-pl-15--lg g-pr-0--lg g-py-10 g-py-30--lg" href="page-alumni-1.html">
-                      Alumni
-                    </a>
-                  </li>
+                 
                 </ul>
               </div>
               <!-- End Navigation -->
@@ -395,7 +285,7 @@
       <!-- End Header -->
 
       <!-- display dynamic page -->
-      <div class="container g-pos-rel g-z-index-1 g-pt-100 g-pb-120">
+      <div class="container-fluid g-pos-rel g-z-index-1 g-pt-20 g-pb-120">
         <?php $this->load->view($main_view)?>
       </div>
 
@@ -423,7 +313,19 @@
 
     <!-- JS Customization -->
     <script src="<?php echo base_url()?>assets/js/custom.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+              mode : 'vertical',
+              auto : true,
+              touchEnabled : true,
+              controls : false
+            });
+          });
+    </script>
     <!-- JS Plugins Init. -->
     <script>
       $(document).on('ready', function () {
