@@ -285,15 +285,115 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
       <!-- End Header -->
 
       <!-- display dynamic page -->
-      <div class="container-fluid g-pos-rel g-z-index-1 g-pt-20 g-pb-120">
+      <div class="container-fluid g-pos-rel g-z-index-1 ">
         <?php $this->load->view($main_view)?>
       </div>
 
       <!-- end display dyanimc page-->
+      
 
+       <!-- Footer -->
+      <footer class="g-bg-secondary g-pt-100 g-pb-50">
+        <div class="container">
+          <div class="row g-mb-40">
+            <div class="col-6 col-md-3 g-mb-20">
+              <!-- Footer Links -->
+              <div class="g-pl-15--lg">
+                <h2 class="h3 mb-4">Alamat :</h2>
+
+                <!-- Contact Info -->
+                <div class="media align-items-center mb-4">
+                  <div class="d-flex mr-3">
+                    <span class="u-icon-v3 u-icon-size--xs g-color-primary g-bg-primary-opacity-0_1 rounded-circle">
+                      <i class="fa fa-map-marker"></i>
+                    </span>
+                  </div>
+                  <div class="media-body">
+                    <span>Komplek Puri Nirwana 1 Blok A1 No. 1, Jl. Cikaret Raya Kel. Pabuaran, Cibinong, Kab. Bogor, Jawa Barat</span>
+                  </div>
+                </div>
+                <!-- End Contact Info -->
+
+                
+
+                
+              </div>
+              <!-- End Footer Links -->
+            </div>
+
+            <div class="col-6 col-md-3 g-mb-20">
+              <!-- Footer Links -->
+              <h2 class="h3 mb-4">Email :</h2>
+              <!-- Contact Info -->
+                <div class="media align-items-center mb-4">
+                  <div class="d-flex mr-3">
+                    <span class="u-icon-v3 u-icon-size--xs g-color-primary g-bg-primary-opacity-0_1 rounded-circle">
+                      <i class="fa fa-envelope-open"></i>
+                    </span>
+                  </div>
+                  <div class="media-body">
+                    <span>info@indotrans.net.id</span>
+                  </div>
+                </div>
+                <!-- End Contact Info -->
+              <!-- End Footer Links -->
+            </div>
+
+            <div class="col-6 col-md-3 g-mb-20">
+              <!-- Footer Links -->
+              <h2 class="h3 mb-4">Telepon :</h2>
+              <!-- Contact Info -->
+                <div class="media align-items-center">
+                  <div class="d-flex mr-3">
+                    <span class="u-icon-v3 u-icon-size--xs g-color-primary g-bg-primary-opacity-0_1 rounded-circle">
+                      <i class="fa fa-phone"></i>
+                    </span>
+                  </div>
+                  <div class="media-body">
+                    <span>(021) - 875 1818 (Office) </span>
+                  </div>
+                </div>
+                <!-- End Contact Info -->
+              <!-- End Footer Links -->
+            </div>
+
+            <div class="col-6 col-md-3 g-mb-20">
+              <!-- Footer Links -->
+               <h2 class="h3 mb-4">Sosial Media :</h2>
+                <i class="fab fa-facebook-f fa-2x"></i>
+              <!-- End Footer Links -->
+            </div>
+          </div>
+
+          <!-- Footer Copyright -->
+          <div class="row justify-content-lg-center align-items-center text-center">
+           
+
+            <div class="col-md-12">
+              <p class="g-color-text mb-0"> &copy PT. INDOTRANS DATA</p>
+            </div>
+          </div>
+          <!-- End Footer Copyright -->
+        </div>
+      </footer>
+      <!-- End Footer -->
+
+     <!-- Go to Top -->
+      <a class="js-go-to u-go-to-v1 u-shadow-v32 g-width-40 g-height-40 g-color-primary g-color-white--hover g-bg-white g-bg-main--hover g-bg-main--focus g-font-size-12 rounded-circle" href="#" data-type="fixed" data-position='{
+       "bottom": 15,
+       "right": 15
+     }' data-offset-top="400"
+        data-compensation="#js-header"
+        data-show-effect="slideInUp"
+        data-hide-effect="slideInDown">
+        <i class="hs-icon hs-icon-arrow-top"></i>
+      </a>
+      <!-- End Go to Top -->
+
+    </main>
       <!-- JS Global Compulsory -->
     <script src="<?php echo base_url()?>assets/js/jquery.min.js"></script>
-    <script src="<?php echo base_url()?>assets/js/jquery-migrate.min.js"></script>
+   <script src="<?php echo base_url()?>assets/js/jquery-migrate.min.js"></script>
     <script src="<?php echo base_url()?>assets/js/popper.min.js"></script>
     <script src="<?php echo base_url()?>assets/js/bootstrap.min.js"></script>
 
@@ -301,7 +401,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
     <script src="<?php echo base_url()?>assets/js/hs.megamenu.js"></script>
     <script src="<?php echo base_url()?>assets/js/slick.js"></script>
     <script src="<?php echo base_url()?>assets/js/jquery.fancybox.js"></script>
-
+    <script src="<?php echo base_url()?>assets/js/appear.js"></script>
     <!-- JS Unify -->
     <script src="<?php echo base_url()?>assets/js/hs.core.js"></script>
     <script src="<?php echo base_url()?>assets/js/hs.header.js"></script>
@@ -309,10 +409,11 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
     <script src="<?php echo base_url()?>assets/js/hs.dropdown.js"></script>
     <script src="<?php echo base_url()?>assets/js/hs.carousel.js"></script>
     <script src="<?php echo base_url()?>assets/js/hs.popup.js"></script>
+    <script src="<?php echo base_url()?>assets/js/hs.onscroll-animation.js"></script>
     <script src="<?php echo base_url()?>assets/js/hs.go-to.js"></script>
 
     <!-- JS Customization -->
-    <script src="<?php echo base_url()?>assets/js/custom.js"></script>
+    
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
@@ -327,7 +428,8 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
           });
     </script>
     <!-- JS Plugins Init. -->
-    <script>
+    <script type="text/javascript">
+
       $(document).on('ready', function () {
         // initialization of header
         $.HSCore.components.HSHeader.init($('#js-header'));
@@ -347,21 +449,18 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
           }
         });
 
-        // initialization of carousel
-        $.HSCore.components.HSCarousel.init('[class*="js-carousel"]');
-
-        // initialization of header's height equal offset
-        $.HSCore.helpers.HSHeightCalc.init();
+       // initialization of go to
+        $.HSCore.components.HSGoTo.init('.js-go-to');
 
         // initialization of popups
         $.HSCore.components.HSPopup.init('.js-fancybox');
-
-        // initialization of go to
-        $.HSCore.components.HSGoTo.init('.js-go-to');
+        // initialization of scroll animation
+        $.HSCore.components.HSOnScrollAnimation.init('[data-animation]');
+        
       });
     </script>
 
-  </main>
+
 
 
 
