@@ -157,7 +157,7 @@
 	
 </section>
 
-<section class="container-fluid g-mt-30 text-center ">
+<section class="container-fluid g-mt-30 text-center">
 
 
     <div class="row u-timeline-v1-wrap g-mx-minus-15">
@@ -181,7 +181,7 @@
           <!-- End Timeline Arrow -->
 
           <!-- Timeline Content -->
-          <article class="u-timeline-v1 g-pa-5">
+          <article class="u-timeline-v1 g-pa-5 g-brd-primary">
             
 
             <div class="g-py-25 g-px-20">
@@ -215,10 +215,10 @@
           <!-- End Timeline Arrow -->
 
           <!-- Timeline Content -->
-          <article class="u-timeline-v1 g-pa-5">
+          <article class="u-timeline-v1 g-pa-5 g-brd-primary">
             
 
-            <div class="g-py-25 g-px-20">
+            <div class="g-py-25 g-px-20 ">
               <h3 class="g-font-weight-300 g-mb-15">
                 <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">2015</a>
               </h3>
@@ -254,7 +254,7 @@
           <!-- End Timeline Arrow -->
 
           <!-- Timeline Content -->
-          <article class="u-timeline-v1 g-pa-5">
+          <article class="u-timeline-v1 g-pa-5 g-brd-primary">
           
 
             <div class="g-py-25 g-px-20">
@@ -288,7 +288,7 @@
           <!-- End Timeline Arrow -->
 
           <!-- Timeline Content -->
-          <article class="u-timeline-v1 g-pa-5">
+          <article class="u-timeline-v1 g-pa-5 g-brd-primary">
            
 
             <div class="g-py-25 g-px-20">
@@ -327,7 +327,7 @@
           <!-- End Timeline Arrow -->
 
           <!-- Timeline Content -->
-          <article class="u-timeline-v1 g-pa-5">
+          <article class="u-timeline-v1 g-pa-5 g-brd-primary">
             
 
             <div class="g-py-25 g-px-20">
@@ -361,7 +361,7 @@
           <!-- End Timeline Arrow -->
 
           <!-- Timeline Content -->
-          <article class="u-timeline-v1 g-pa-5">
+          <article class="u-timeline-v1 g-pa-5 g-brd-primary ">
             
 
             <div class="g-py-25 g-px-20">
@@ -399,7 +399,7 @@
           <!-- End Timeline Arrow -->
 
           <!-- Timeline Content -->
-          <article class="u-timeline-v1 g-pa-5">
+          <article class="u-timeline-v1 g-pa-5 g-brd-primary">
             
 
             <div class="g-py-25 g-px-20">
@@ -433,7 +433,7 @@
           <!-- End Timeline Arrow -->
 
           <!-- Timeline Content -->
-          <article class="u-timeline-v1 g-pa-5">
+          <article class="u-timeline-v1 g-pa-5 g-brd-primary">
             
 
             <div class="g-py-25 g-px-20">
@@ -471,7 +471,7 @@
           <!-- End Timeline Arrow -->
 
           <!-- Timeline Content -->
-          <article class="u-timeline-v1 g-pa-5">
+          <article class="u-timeline-v1 g-pa-5 g-brd-primary">
             
 
             <div class="g-py-25 g-px-20">
@@ -505,7 +505,7 @@
           <!-- End Timeline Arrow -->
 
           <!-- Timeline Content -->
-          <article class="u-timeline-v1 g-pa-5">
+          <article class="u-timeline-v1 g-pa-5 g-brd-primary">
             
 
             <div class="g-py-25 g-px-20">
@@ -543,7 +543,7 @@
           <!-- End Timeline Arrow -->
 
           <!-- Timeline Content -->
-          <article class="u-timeline-v1 g-pa-5">
+          <article class="u-timeline-v1 g-pa-5 g-brd-primary">
             
 
             <div class="g-py-25 g-px-20">
@@ -577,7 +577,7 @@
           <!-- End Timeline Arrow -->
 
           <!-- Timeline Content -->
-          <article class="u-timeline-v1 g-pa-5">
+          <article class="u-timeline-v1 g-pa-5 g-brd-primary">
             
 
             <div class="g-py-25 g-px-20">
