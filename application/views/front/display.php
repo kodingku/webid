@@ -37,7 +37,7 @@
 </div>
 	<section class="text-center g-py-10 g-mb-50" style="background-image: url(<?php echo base_url();?>assets/css/svg-bg1.svg);">
 		<h1>INDOTRANS DATA Your IT Solution</h1>
-		<p>
+		<p class="g-font-size-24">
 			Para professional kami yang berdedikasi tinggi dalam bidang solusi internet siap membantu Anda untuk membangun jaringan internet dan IT Solution sesuai dengan kebutuhan Anda untuk menembus era teknologi dan globalisasi.
 		</p>
 		<a href="<?php echo base_url()?>Home/profileManajemen" class="btn btn-primary">Mengenal Lebih Dekat</a>

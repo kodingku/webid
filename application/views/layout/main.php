@@ -210,19 +210,19 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
                           <!-- Links -->
                           <ul class="list-unstyled g-pr-30 mb-0">
                             <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/sejarah">
+                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/smartHome">
                                 Internet Smart Home
                                 
                               </a>
                             </li>
                             <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/profileManajemen">
+                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/soho">
                                 Internet SOHO (Small Office Home Office)
                                 
                               </a>
                             </li>
                             <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/portofolioIndotrans">
+                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/web">
                                 Domain dan Hosting
                                 
                               </a>
@@ -236,19 +236,19 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
                           <!-- Links -->
                           <ul class="list-unstyled g-pr-30 mb-0">
                             <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/sejarah">
+                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/dataCenter">
                                 Data Center
                                 
                               </a>
                             </li>
                             <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/profileManajemen">
+                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/gudangApp">
                                 Gudang App
                                 
                               </a>
                             </li>
                             <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/portofolioIndotrans">
+                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/broadcasting">
                                 Broadcasting
                                 
                               </a>

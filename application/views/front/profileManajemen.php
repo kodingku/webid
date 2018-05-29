@@ -157,7 +157,449 @@
 	
 </section>
 
+<section class="container-fluid g-mt-30 text-center ">
 
+
+    <div class="row u-timeline-v1-wrap g-mx-minus-15">
+      <!-- Timeline Box -->
+      <div class="col-md-6 g-orientation-right g-pl-60 g-pl-15--md g-pr-40--md g-mb-60 g-mb-0--md">
+        <div class="u-timeline-v1__icon g-color-gray-light-v5 g-ml-13 g-ml-minus-10--md">
+          <i class="fa fa-circle g-color-main"></i>
+        </div>
+
+        <div class="g-pos-rel">
+          <!-- Timeline Arrow -->
+          <div class="g-hidden-sm-down u-triangle-inclusive-v1--left g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--left__front g-brd-blue-left g-brd-white-right"></div>
+            <div class="u-triangle-inclusive-v1--left__back g-brd-gray-light-v4-left g-brd-gray-light-v4-right"></div>
+          </div>
+
+          <div class="g-hidden-md-up u-triangle-inclusive-v1--right g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--right__front g-brd-white-right"></div>
+            <div class="u-triangle-inclusive-v1--right__back g-brd-gray-light-v4-right"></div>
+          </div>
+          <!-- End Timeline Arrow -->
+
+          <!-- Timeline Content -->
+          <article class="u-timeline-v1 g-pa-5">
+            
+
+            <div class="g-py-25 g-px-20">
+              <h3 class="g-font-weight-300 g-mb-15">
+                <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">2015</a>
+              </h3>
+
+              <div class="g-mb-30">
+                <p>Pengadaan Bandwidth Internet – Kementerian Dalam Negeri Ditjen Bina Pembangunan Daerah</p>
+              </div>
+   
+            </div>
+          </article>
+          <!-- End Timeline Content -->
+        </div>
+      </div>
+      <!-- End Timeline Box -->
+
+      <!-- Timeline Box -->
+      <div class="col-md-6 g-orientation-left g-pl-60 g-pl-40--md g-mt-60--md g-mb-60 g-mb-0--md">
+        <div class="u-timeline-v1__icon g-color-gray-light-v5 g-mr-13 g-mr-minus-8--md">
+          <i class="fa fa-circle g-color-main"></i>
+        </div>
+
+        <div class="g-pos-rel">
+          <!-- Timeline Arrow -->
+          <div class="u-triangle-inclusive-v1--right g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--right__front g-brd-blue-right"></div>
+            <div class="u-triangle-inclusive-v1--right__back g-brd-gray-light-v4-right"></div>
+          </div>
+          <!-- End Timeline Arrow -->
+
+          <!-- Timeline Content -->
+          <article class="u-timeline-v1 g-pa-5">
+            
+
+            <div class="g-py-25 g-px-20">
+              <h3 class="g-font-weight-300 g-mb-15">
+                <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">2015</a>
+              </h3>
+
+              <div class="g-mb-30">
+                <p>Penyewaan Bandwidth Internet Ditjen Bina Pembangunan Daerah - Kementerian Dalam Negeri Ditjen Bina Pembangunan Daerah</p>
+              </div>
+
+            </div>
+          </article>
+          <!-- End Timeline Content -->
+        </div>
+      </div>
+      <!-- End Timeline Box -->
+
+      <!-- Timeline Box -->
+      <div class="col-md-6 g-orientation-right g-pl-60 g-pl-15--md g-pr-40--md g-mb-60 g-mb-0--md">
+        <div class="u-timeline-v1__icon g-color-gray-light-v5 g-ml-13 g-ml-minus-10--md">
+          <i class="fa fa-circle g-color-main"></i>
+        </div>
+
+        <div class="g-pos-rel">
+          <!-- Timeline Arrow -->
+          <div class="g-hidden-sm-down u-triangle-inclusive-v1--left g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--left__front g-brd-blue-left g-brd-white-right"></div>
+            <div class="u-triangle-inclusive-v1--left__back g-brd-gray-light-v4-left g-brd-gray-light-v4-right"></div>
+          </div>
+
+          <div class="g-hidden-md-up u-triangle-inclusive-v1--right g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--right__front g-brd-white-right"></div>
+            <div class="u-triangle-inclusive-v1--right__back g-brd-gray-light-v4-right"></div>
+          </div>
+          <!-- End Timeline Arrow -->
+
+          <!-- Timeline Content -->
+          <article class="u-timeline-v1 g-pa-5">
+          
+
+            <div class="g-py-25 g-px-20">
+              <h3 class="g-font-weight-300 g-mb-15">
+                <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">2015</a>
+              </h3>
+
+              <div class="g-mb-30">
+                <p>Pengadaan Jasa Jaringan Internet Server – Kementerian Hukum dan Hak Asasi Manusia RI Direktorat Jendral Peraturan Perundang-undangan</p>
+              </div>
+
+            </div>
+          </article>
+          <!-- End Timeline Content -->
+        </div>
+      </div>
+      <!-- End Timeline Box -->
+
+      <!-- Timeline Box -->
+      <div class="col-md-6 g-orientation-left g-pl-60 g-pl-40--md g-mt-60--md g-mb-60 g-mb-0--md">
+        <div class="u-timeline-v1__icon g-color-gray-light-v5 g-ml-13 g-mr-minus-8--md">
+          <i class="fa fa-circle g-color-main"></i>
+        </div>
+
+        <div class="g-pos-rel">
+          <!-- Timeline Arrow -->
+          <div class="u-triangle-inclusive-v1--right g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--right__front g-brd-blue-right"></div>
+            <div class="u-triangle-inclusive-v1--right__back g-brd-gray-light-v4-right"></div>
+          </div>
+          <!-- End Timeline Arrow -->
+
+          <!-- Timeline Content -->
+          <article class="u-timeline-v1 g-pa-5">
+           
+
+            <div class="g-py-25 g-px-20">
+              <h3 class="g-font-weight-300 g-mb-15">
+                <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">2016</a>
+              </h3>
+
+              <div class="g-mb-30">
+                <p>Belanja Kawat/Faksimili/Internet – Dinas Komunikasi dan Informasi Kabupaten Bogor</p>
+              </div>
+
+            </div>
+          </article>
+          <!-- End Timeline Content -->
+        </div>
+      </div>
+      <!-- End Timeline Box -->
+
+      <!-- Timeline Box -->
+      <div class="col-md-6 g-orientation-right g-pl-60 g-pl-15--md g-pr-40--md g-mb-60 g-mb-0--md">
+        <div class="u-timeline-v1__icon g-color-gray-light-v5 g-ml-13 g-ml-minus-10--md">
+          <i class="fa fa-circle g-color-main"></i>
+        </div>
+
+        <div class="g-pos-rel">
+          <!-- Timeline Arrow -->
+          <div class="g-hidden-sm-down u-triangle-inclusive-v1--left g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--left__front g-brd-blue-left g-brd-white-right"></div>
+            <div class="u-triangle-inclusive-v1--left__back g-brd-gray-light-v4-left g-brd-gray-light-v4-right"></div>
+          </div>
+
+          <div class="g-hidden-md-up u-triangle-inclusive-v1--right g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--right__front g-brd-white-right"></div>
+            <div class="u-triangle-inclusive-v1--right__back g-brd-gray-light-v4-right"></div>
+          </div>
+          <!-- End Timeline Arrow -->
+
+          <!-- Timeline Content -->
+          <article class="u-timeline-v1 g-pa-5">
+            
+
+            <div class="g-py-25 g-px-20">
+              <h3 class="g-font-weight-300 g-mb-15">
+                <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">2016</a>
+              </h3>
+
+              <div class="g-mb-30">
+                <p>Belanja Kawat/Faksimili/Internet Langganan Internet Service Provider pada Kegiatan Penyediaan Jasa Komunikasi, Sumber Daya Air dan Listrik – Pemerintah Daerah Kabupaten Bogor Kantor Layanan Pengadaan Barang dan Jasa</p>
+              </div>
+
+            </div>
+          </article>
+          <!-- End Timeline Content -->
+        </div>
+      </div>
+      <!-- End Timeline Box -->
+
+      <!-- Timeline Box -->
+      <div class="col-md-6 g-orientation-left g-pl-60 g-pl-40--md g-mt-60--md">
+        <div class="u-timeline-v1__icon g-color-gray-light-v5 g-ml-13 g-mr-minus-8--md">
+          <i class="fa fa-circle g-color-main"></i>
+        </div>
+
+        <div class="g-pos-rel">
+          <!-- Timeline Arrow -->
+          <div class="u-triangle-inclusive-v1--right g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--right__front g-brd-blue-right"></div>
+            <div class="u-triangle-inclusive-v1--right__back g-brd-gray-light-v4-right"></div>
+          </div>
+          <!-- End Timeline Arrow -->
+
+          <!-- Timeline Content -->
+          <article class="u-timeline-v1 g-pa-5">
+            
+
+            <div class="g-py-25 g-px-20">
+              <h3 class="g-font-weight-300 g-mb-15">
+                <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">2016</a>
+              </h3>
+
+              <div class="g-mb-30">
+                <p>Pengadaan Sewa Jasa ISP – Pemerintah Daerah Kabupaten Musi Banyasuasin Dishubkominfo</p>
+              </div>
+            </div>
+          </article>
+          <!-- End Timeline Content -->
+        </div>
+      </div>
+      <!-- End Timeline Box -->
+
+       <!-- Timeline Box -->
+      <div class="col-md-6 g-orientation-right g-pl-60 g-pl-15--md g-pr-40--md g-mb-60 g-mb-0--md">
+        <div class="u-timeline-v1__icon g-color-gray-light-v5 g-ml-13 g-ml-minus-10--md">
+          <i class="fa fa-circle g-color-main" ></i>
+        </div>
+
+        <div class="g-pos-rel">
+          <!-- Timeline Arrow -->
+          <div class="g-hidden-sm-down u-triangle-inclusive-v1--left g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--left__front g-brd-blue-left g-brd-white-right"></div>
+            <div class="u-triangle-inclusive-v1--left__back g-brd-gray-light-v4-left g-brd-gray-light-v4-right"></div>
+          </div>
+
+          <div class="g-hidden-md-up u-triangle-inclusive-v1--right g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--right__front g-brd-white-right"></div>
+            <div class="u-triangle-inclusive-v1--right__back g-brd-gray-light-v4-right"></div>
+          </div>
+          <!-- End Timeline Arrow -->
+
+          <!-- Timeline Content -->
+          <article class="u-timeline-v1 g-pa-5">
+            
+
+            <div class="g-py-25 g-px-20">
+              <h3 class="g-font-weight-300 g-mb-15">
+                <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">2017</a>
+              </h3>
+
+              <div class="g-mb-30">
+                <p>Pengadaan Bandwidth (Akses Internet) 250 Mbps Tahun 2017 (Januari s/d Desember 2017) – Pemerintah Daerah Kota Bogor Dinas Komunikasi, Informatika, Statistik dan Persandian</p>
+              </div>
+
+            </div>
+          </article>
+          <!-- End Timeline Content -->
+        </div>
+      </div>
+      <!-- End Timeline Box -->
+
+      <!-- Timeline Box -->
+      <div class="col-md-6 g-orientation-left g-pl-60 g-pl-40--md g-mt-60--md">
+        <div class="u-timeline-v1__icon g-color-gray-light-v5 g-ml-13 g-mr-minus-8--md">
+          <i class="fa fa-circle g-color-main"></i>
+        </div>
+
+        <div class="g-pos-rel">
+          <!-- Timeline Arrow -->
+          <div class="u-triangle-inclusive-v1--right g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--right__front g-brd-blue-right"></div>
+            <div class="u-triangle-inclusive-v1--right__back g-brd-gray-light-v4-right"></div>
+          </div>
+          <!-- End Timeline Arrow -->
+
+          <!-- Timeline Content -->
+          <article class="u-timeline-v1 g-pa-5">
+            
+
+            <div class="g-py-25 g-px-20">
+              <h3 class="g-font-weight-300 g-mb-15">
+                <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">2017</a>
+              </h3>
+
+              <div class="g-mb-30">
+                <p>Belanja Kawat/Faksimili/Internet pada Belanja Internet Kecamatan – Pemerintah Daerah Kabupaten Bogor Dinas Komunikasi dan Informatika</p>
+              </div>
+            </div>
+          </article>
+          <!-- End Timeline Content -->
+        </div>
+      </div>
+      <!-- End Timeline Box -->
+
+       <!-- Timeline Box -->
+      <div class="col-md-6 g-orientation-right g-pl-60 g-pl-15--md g-pr-40--md g-mb-60 g-mb-0--md">
+        <div class="u-timeline-v1__icon g-color-gray-light-v5 g-ml-13 g-ml-minus-10--md">
+          <i class="fa fa-circle g-color-main"></i>
+        </div>
+
+        <div class="g-pos-rel">
+          <!-- Timeline Arrow -->
+          <div class="g-hidden-sm-down u-triangle-inclusive-v1--left g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--left__front g-brd-blue-left g-brd-white-right"></div>
+            <div class="u-triangle-inclusive-v1--left__back g-brd-gray-light-v4-left g-brd-gray-light-v4-right"></div>
+          </div>
+
+          <div class="g-hidden-md-up u-triangle-inclusive-v1--right g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--right__front g-brd-white-right"></div>
+            <div class="u-triangle-inclusive-v1--right__back g-brd-gray-light-v4-right"></div>
+          </div>
+          <!-- End Timeline Arrow -->
+
+          <!-- Timeline Content -->
+          <article class="u-timeline-v1 g-pa-5">
+            
+
+            <div class="g-py-25 g-px-20">
+              <h3 class="g-font-weight-300 g-mb-15">
+                <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">2018</a>
+              </h3>
+
+              <div class="g-mb-30">
+                <p>Jaringan Internet Akses Pegawai – Kementerian Hukum dan Hak Asasi Manuasia RI Ditjen Peraturan Perundang-undangan</p>
+              </div>
+
+            </div>
+          </article>
+          <!-- End Timeline Content -->
+        </div>
+      </div>
+      <!-- End Timeline Box -->
+
+      <!-- Timeline Box -->
+      <div class="col-md-6 g-orientation-left g-pl-60 g-pl-40--md g-mt-60--md">
+        <div class="u-timeline-v1__icon g-color-gray-light-v5 g-ml-13 g-mr-minus-8--md">
+          <i class="fa fa-circle g-color-main"></i>
+        </div>
+
+        <div class="g-pos-rel">
+          <!-- Timeline Arrow -->
+          <div class="u-triangle-inclusive-v1--right g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--right__front g-brd-blue-right"></div>
+            <div class="u-triangle-inclusive-v1--right__back g-brd-gray-light-v4-right"></div>
+          </div>
+          <!-- End Timeline Arrow -->
+
+          <!-- Timeline Content -->
+          <article class="u-timeline-v1 g-pa-5">
+            
+
+            <div class="g-py-25 g-px-20">
+              <h3 class="g-font-weight-300 g-mb-15">
+                <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">2018</a>
+              </h3>
+
+              <div class="g-mb-30">
+                <p>Belanja Kawat/Faksimili/Internet – Pemerintah Daerah Kabupaten Bogor Dinas Komunikasi dan Informatika</p>
+              </div>
+            </div>
+          </article>
+          <!-- End Timeline Content -->
+        </div>
+      </div>
+      <!-- End Timeline Box -->
+
+      <!-- Timeline Box -->
+      <div class="col-md-6 g-orientation-right g-pl-60 g-pl-15--md g-pr-40--md g-mb-60 g-mb-0--md">
+        <div class="u-timeline-v1__icon g-color-gray-light-v5 g-ml-13 g-ml-minus-10--md">
+          <i class="fa fa-circle g-color-main "></i>
+        </div>
+
+        <div class="g-pos-rel">
+          <!-- Timeline Arrow -->
+          <div class="g-hidden-sm-down u-triangle-inclusive-v1--left g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--left__front g-brd-blue-left g-brd-white-right"></div>
+            <div class="u-triangle-inclusive-v1--left__back g-brd-gray-light-v4-left g-brd-gray-light-v4-right"></div>
+          </div>
+
+          <div class="g-hidden-md-up u-triangle-inclusive-v1--right g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--right__front g-brd-white-right"></div>
+            <div class="u-triangle-inclusive-v1--right__back g-brd-gray-light-v4-right"></div>
+          </div>
+          <!-- End Timeline Arrow -->
+
+          <!-- Timeline Content -->
+          <article class="u-timeline-v1 g-pa-5">
+            
+
+            <div class="g-py-25 g-px-20">
+              <h3 class="g-font-weight-300 g-mb-15">
+                <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">2018</a>
+              </h3>
+
+              <div class="g-mb-30">
+                <p>Pengadaan Bandwidth (akses internet) 150 Mbps Tahun 2018 (Februari s/d Desember 2018) – Pemerintah Daerah Kota Bogor Dinas Komunikasi, Informatika, Statistik dan Persandian</p>
+              </div>
+
+            </div>
+          </article>
+          <!-- End Timeline Content -->
+        </div>
+      </div>
+      <!-- End Timeline Box -->
+
+      <!-- Timeline Box -->
+      <div class="col-md-6 g-orientation-left g-pl-60 g-pl-40--md g-mt-60--md">
+        <div class="u-timeline-v1__icon g-color-gray-light-v5 g-ml-13 g-mr-minus-8--md">
+          <i class="fa fa-circle g-color-main"></i>
+        </div>
+
+        <div class="g-pos-rel">
+          <!-- Timeline Arrow -->
+          <div class="u-triangle-inclusive-v1--right g-top-30 g-z-index-2">
+            <div class="u-triangle-inclusive-v1--right__front g-brd-blue-right"></div>
+            <div class="u-triangle-inclusive-v1--right__back g-brd-gray-light-v4-right"></div>
+          </div>
+          <!-- End Timeline Arrow -->
+
+          <!-- Timeline Content -->
+          <article class="u-timeline-v1 g-pa-5">
+            
+
+            <div class="g-py-25 g-px-20">
+              <h3 class="g-font-weight-300 g-mb-15">
+                <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">2018</a>
+              </h3>
+
+              <div class="g-mb-30">
+                <p>Belanja Kawat/Faksimili/Internet (Belanja Langganan Internet Bagian Pengadaan Barang dan Jasa) – Pemerintah Daerah Kabupaten Bogor Sekretariat Daerah-Bagian Umum </p>
+              </div>
+            </div>
+          </article>
+          <!-- End Timeline Content -->
+        </div>
+      </div>
+      <!-- End Timeline Box -->
+
+
+    </div>
+
+	
+</section>
 
 
 
