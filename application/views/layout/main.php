@@ -21,15 +21,10 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,700%7CAlegreya:400" rel="stylesheet">
 
     <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>assets/vendor/bootstrap/bootstrap.min.css">
 
     
-    <!-- CSS Unify -->
-
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/unify.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/css/unify-core.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/css/unify-components.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/css/unify-globals.css">
+    
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="<?php echo base_url()?>assets/css/icon-hs/style.css">
     <link rel="stylesheet" href="<?php echo base_url()?>assets/css/icon-awesome/css/font-awesome.min.css">
@@ -37,17 +32,26 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
      <link rel="stylesheet" href="<?php echo base_url()?>assets/css/icon-material/material-icons.css">
     <link rel="stylesheet" href="<?php echo base_url()?>assets/css/animate.css">
     <link rel="stylesheet" href="<?php echo base_url()?>assets/css/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>assets/vendor/custombox/custombox.min.css">
     <link rel="stylesheet" href="<?php echo base_url()?>assets/css/hamburgers/hamburgers.min.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/css/slick.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/js/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/jquery.fancybox.min.css">
+    <!-- CSS Unify -->
+
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/unify.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>assets/css/unify-core.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>assets/css/unify-components.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>assets/css/unify-globals.css">
+    
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css">
 
 
     <!-- CSS Unify Theme -->
     <link rel="stylesheet" href="<?php echo base_url()?>assets/css/styles.multipage-education.css">
 
-    <!-- CSS Customization -->
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/css/custom.css">
+   
   </head>
 
   <main>
@@ -59,7 +63,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
             <div class="container g-py-5">
               <ul class="list-inline d-flex align-items-center g-mb-0">
                 <li class="list-inline-item d-none d-lg-inline-block">
-                  <a class="u-link-v5 g-brd-around g-brd-black-opacity-0_2 g-color-black-opacity-0_7 g-color-black--hover g-font-size-12 g-rounded-20 text-uppercase g-px-20 g-py-10" href="page-apply-1.html"><b>Tools View Mobile</b></a>
+                  <a class="u-link-v5 g-brd-around g-brd-black-opacity-0_2 g-color-black-opacity-0_7 g-color-black--hover g-font-size-12 g-rounded-20 text-uppercase g-px-20 g-py-10" href="#"><b>Tools View Mobile</b></a>
                 </li>
 
                 
@@ -145,10 +149,10 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
             <!-- Nav -->
             <nav class="js-mega-menu navbar navbar-expand-lg g-px-0 g-py-5 g-py-0--lg">
               <!-- Logo -->
-              <a class="navbar-brand g-max-width-170 g-max-width-200--lg" href="home-page-1.html">
+              <a class="navbar-brand g-max-width-170 g-max-width-200--lg" href="<?php echo base_url()?>">
                 <img class="img-fluid g-hidden-lg-down" src="<?php echo base_url()?>assets/img/logo.png" alt="Logo">
                 <img class="img-fluid g-width-80 g-hidden-md-down g-hidden-xl-up" src="<?php echo base_url()?>assets/img/logo.png" alt="Logo">
-                <img class="img-fluid g-hidden-lg-up" src="assets/img/logo.png" alt="Logo">
+                <img class="img-fluid g-hidden-lg-up" src="<?php echo base_url()?>assets/img/logo.png" alt="Logo">
               </a>
               <!-- End Logo -->
 
@@ -173,16 +177,14 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
                   
 
                   <li class="nav-item">
-                    <a class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-px-15--lg g-py-10 g-py-30--lg" href="page-programs-1.html">
+                    <a class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-px-15--lg g-py-10 g-py-30--lg" href="<?php echo base_url() ?>">
                       Beranda
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-px-15--lg g-py-10 g-py-30--lg" href="page-future-students-1.html">
-                      Tentang Kami
-                    </a>
-                  </li>
+
                   <!-- Pages - Mega Menu -->
+                  
+                    <!-- Pages - Mega Menu -->
                   <li class="nav-item hs-has-mega-menu"
                       data-animation-in="fadeIn"
                       data-animation-out="fadeOut"
@@ -190,42 +192,42 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
                     <a id="mega-menu-label-1" class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-px-15--lg g-py-10 g-py-30--lg" href="#!"
                        aria-haspopup="true"
                        aria-expanded="false">
-                      Produk dan Layanan
+                      Produk
                       <i class="hs-icon hs-icon-arrow-bottom g-font-size-11 g-ml-7"></i>
                     </a>
+                    <!-- Pages - Mega Menu -->
+                  
+
+                    
+                    
 
                     <!-- Mega Menu -->
                     <div class="w-100 hs-mega-menu u-shadow-v39 g-brd-around g-brd-7 g-brd-white g-bg-secondary g-text-transform-none g-pa-30 g-pa-50--lg g-my-20 g-my-0--lg" aria-labelledby="mega-menu-label-1">
-                      <span class="d-block h1 g-brd-bottom g-brd-2 g-brd-main pb-2 mb-5">Produk dan Layanan Kami</span>
+                      <span class="d-block h1 g-brd-bottom g-brd-2 g-brd-main pb-2 mb-5">Produk Kami</span>
 
                       <div class="row">
                         <div class="col-lg-6">
                           <!-- Links -->
                           <ul class="list-unstyled g-pr-30 mb-0">
                             <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-programs-1.html">
-                                Internet Dedicated
-                                <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
-                              </a>
-                            </li>
-                            <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-future-students-1.html">
+                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/sejarah">
                                 Internet Smart Home
-                                <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
+                                
                               </a>
                             </li>
                             <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-current-students-1.html">
-                                Data Center
-                                <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
+                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/profileManajemen">
+                                Internet SOHO (Small Office Home Office)
+                                
                               </a>
                             </li>
                             <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-current-students-1.html">
-                                SOHO
-                                <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
+                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/portofolioIndotrans">
+                                Domain dan Hosting
+                                
                               </a>
                             </li>
+                            
                           </ul>
                           <!-- End Links -->
                         </div>
@@ -234,40 +236,35 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
                           <!-- Links -->
                           <ul class="list-unstyled g-pr-30 mb-0">
                             <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-faculty-and-staff-1.html">
-                                Gudang APP
-                                <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
+                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/sejarah">
+                                Data Center
+                                
                               </a>
                             </li>
                             <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-events-1.html">
-                                Pelatihan dan Narasumber Uji Kompetensi
-                                <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
+                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/profileManajemen">
+                                Gudang App
+                                
                               </a>
                             </li>
                             <li class="py-2">
-                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="page-alumni-1.html">
-                                Video Production
-                                <i class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
+                              <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5" href="<?php echo base_url()?>Home/portofolioIndotrans">
+                                Broadcasting
+                                
                               </a>
                             </li>
+                            
                           </ul>
                           <!-- End Links -->
                         </div>
-
                         
-
                         
                       </div>
                     </div>
                     <!-- End Mega Menu -->
                   </li>
-                  <!-- End Pages - Mega Menu -->
-                  <li class="nav-item">
-                    <a class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-px-15--lg g-py-10 g-py-30--lg" href="page-faculty-and-staff-1.html">
-                      Klien Kami
-                    </a>
-                  </li>
+                  
+
                   <li class="nav-item">
                     <a class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-px-15--lg g-py-10 g-py-30--lg" href="page-events-1.html">
                       Kontak
@@ -285,9 +282,9 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
       <!-- End Header -->
 
       <!-- display dynamic page -->
-      <div class="container-fluid g-pos-rel g-z-index-1 ">
+     
         <?php $this->load->view($main_view)?>
-      </div>
+      
 
       <!-- end display dyanimc page-->
       
@@ -350,9 +347,32 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
                     </span>
                   </div>
                   <div class="media-body">
-                    <span>(021) - 875 1818 (Office) </span>
+                    <span>(021) - 875 1818 (Office)</span>
                   </div>
                 </div>
+
+                <div class="media align-items-center">
+                  <div class="d-flex mr-3">
+                    <span class="u-icon-v3 u-icon-size--xs g-color-primary g-bg-primary-opacity-0_1 rounded-circle">
+                      <i class="fa fa-phone"></i>
+                    </span>
+                  </div>
+                  <div class="media-body">
+                    <span>(021) - 2904 1818 (Helpdesk)</span>
+                  </div>
+                </div>
+
+                <div class="media align-items-center">
+                  <div class="d-flex mr-3">
+                    <span class="u-icon-v3 u-icon-size--xs g-color-primary g-bg-primary-opacity-0_1 rounded-circle">
+                      <i class="fab fa-whatsapp fa-2x"></i>
+                    </span>
+                  </div>
+                  <div class="media-body">
+                    <span>0815 1905 1381 (Whatsapp)</span>
+                  </div>
+                </div>
+
                 <!-- End Contact Info -->
               <!-- End Footer Links -->
             </div>
@@ -393,29 +413,38 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
     </main>
       <!-- JS Global Compulsory -->
     <script src="<?php echo base_url()?>assets/js/jquery.min.js"></script>
-   <script src="<?php echo base_url()?>assets/js/jquery-migrate.min.js"></script>
+    <script src="<?php echo base_url();?>assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+   <script src="<?php echo base_url();?>assets/js/jquery.easing/js/jquery.easing.js"></script>
     <script src="<?php echo base_url()?>assets/js/popper.min.js"></script>
-    <script src="<?php echo base_url()?>assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url()?>assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
 
     <!-- JS Implementing Plugins -->
-    <script src="<?php echo base_url()?>assets/js/hs.megamenu.js"></script>
-    <script src="<?php echo base_url()?>assets/js/slick.js"></script>
-    <script src="<?php echo base_url()?>assets/js/jquery.fancybox.js"></script>
     <script src="<?php echo base_url()?>assets/js/appear.js"></script>
+    <script src="<?php echo base_url()?>assets/js/jquery.fancybox.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/slick-carousel/slick/slick.js"></script>
+    <script src="<?php echo base_url()?>assets/js/hs.megamenu.js"></script>
+    <script src="<?php echo base_url()?>assets/vendor/custombox/custombox.min.js"></script>
+    
+    
     <!-- JS Unify -->
     <script src="<?php echo base_url()?>assets/js/hs.core.js"></script>
     <script src="<?php echo base_url()?>assets/js/hs.header.js"></script>
     <script src="<?php echo base_url()?>assets/js/hs.hamburgers.js"></script>
     <script src="<?php echo base_url()?>assets/js/hs.dropdown.js"></script>
-    <script src="<?php echo base_url()?>assets/js/hs.carousel.js"></script>
-    <script src="<?php echo base_url()?>assets/js/hs.popup.js"></script>
-    <script src="<?php echo base_url()?>assets/js/hs.onscroll-animation.js"></script>
+    <script src="<?php echo base_url();?>assets/js/hs.popup.js"></script>
+    <script src="<?php echo base_url();?>assets/js/hs.carousel.js"></script>
+    <script src="<?php echo base_url();?>assets/js/hs.modal-window.js"></script>
+    
+     <script src="<?php echo base_url()?>assets/js/hs.tabs.js"></script>
     <script src="<?php echo base_url()?>assets/js/hs.go-to.js"></script>
 
     <!-- JS Customization -->
     
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  
 
     <script type="text/javascript">
         $(document).ready(function(){
@@ -431,10 +460,14 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
     <script type="text/javascript">
 
       $(document).on('ready', function () {
+        // initialization of popups
+        $.HSCore.components.HSModalWindow.init('[data-modal-target]');
+         
         // initialization of header
         $.HSCore.components.HSHeader.init($('#js-header'));
         $.HSCore.helpers.HSHamburgers.init('.hamburger');
-
+        
+       
         // initialization of HSMegaMenu component
         $('.js-mega-menu').HSMegaMenu({
           event: 'hover',
@@ -448,18 +481,27 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
             $(this).find('input[type="search"]').focus();
           }
         });
+      
+      $.HSCore.components.HSPopup.init('.js-fancybox');
+      $.HSCore.components.HSCarousel.init('.js-carousel');
+      $.HSCore.components.HSCarousel.init('#carousel-08-1');
+    
 
        // initialization of go to
         $.HSCore.components.HSGoTo.init('.js-go-to');
+       
+        // initialization of tabs
+        $.HSCore.components.HSTabs.init('[role="tablist"]');
 
-        // initialization of popups
-        $.HSCore.components.HSPopup.init('.js-fancybox');
-        // initialization of scroll animation
-        $.HSCore.components.HSOnScrollAnimation.init('[data-animation]');
         
       });
     </script>
-
+    <script type="text/javascript">
+      $(document).ready( function () {
+          $('#table_id').DataTable();
+           $('#table_id_two').DataTable();
+      } );
+    </script>
 
 
 
