@@ -41,4 +41,9 @@ class Home extends CI_Controller
 		$this->load->view('layout/main',$data);
 	}
 	
+	public function kontak(){
+		$data['main_view'] = "front/kontak";
+		$this->load->view('layout/main',$data);
+	}
+	
 }
