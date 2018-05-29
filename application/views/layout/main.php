@@ -182,6 +182,12 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
                     </a>
                   </li>
 
+                  <li class="nav-item">
+                    <a class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-px-15--lg g-py-10 g-py-30--lg" href="<?php echo base_url() ?>Home/profileManajemen">
+                      Tentang Kami
+                    </a>
+                  </li>
+
                   <!-- Pages - Mega Menu -->
                   
                     <!-- Pages - Mega Menu -->
