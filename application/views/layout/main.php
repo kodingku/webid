@@ -318,6 +318,19 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
                 </div>
                 <!-- End Contact Info -->
 
+                <!-- Contact Info -->
+                <div class="media align-items-center mb-4">
+                  <div class="d-flex mr-3">
+                    <span class="u-icon-v3 u-icon-size--xs g-color-primary g-bg-primary-opacity-0_1 rounded-circle">
+                      <i class="fa fa-map-marker"></i>
+                    </span>
+                  </div>
+                  <div class="media-body">
+                    <span>Komplek Puri Nirwana 1 Blok A1 No. 1, Jl. Cikaret Raya Kel. Pabuaran, Cibinong, Kab. Bogor, Jawa Barat</span>
+                  </div>
+                </div>
+                <!-- End Contact Info -->
+
                 
 
                 
