@@ -370,16 +370,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
                     <span>(021) - 875 1818 (Office)</span>
                   </div>
                 </div>
-                <div class="media align-items-center">
-                  <div class="d-flex mr-3">
-                    <span class="u-icon-v3 u-icon-size--xs g-color-primary g-bg-primary-opacity-0_1 rounded-circle">
-                      <i class="fa fa-phone"></i>
-                    </span>
-                  </div>
-                  <div class="media-body">
-                    <span>(021) - 29041818 </span>
-                  </div>
-                </div>
+               
 
                 <div class="media align-items-center">
                   <div class="d-flex mr-3">
