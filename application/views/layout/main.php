@@ -18,7 +18,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,700%7CAlegreya:400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet"> 
 
     <!-- CSS Global Compulsory -->
     <link rel="stylesheet" href="<?php echo base_url()?>assets/vendor/bootstrap/bootstrap.min.css">
@@ -54,7 +54,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
    
   </head>
 
-  <main>
+  <main style="font-family: 'Space Mono', monospace;">
       <!-- Header -->
       <header id="js-header" class="u-header">
         <div class="u-header__section">
