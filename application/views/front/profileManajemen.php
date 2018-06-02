@@ -640,8 +640,8 @@
 		  <button type="button" class="close" onclick="Custombox.modal.close();">
 		    <i class="hs-icon hs-icon-close"></i>
 		  </button>
-		  <h4 class="g-mb-20 text-center">Dwi Cahyoko</h4>
-		  <img class="w-100" src="<?php echo base_url()?>assets/img/owner/dwi.jpg" alt="Image Description">
+		  <h4 class="g-mb-20 text-center">Priyono Srigunadi</h4>
+		  <img class="w-100" src="<?php echo base_url()?>assets/img/owner/nino.png" alt="Image Description">
 		  <p class="text-center">Ditengah-tengah persaingan yang semakin ketat, dimana harga internet tiap tahun nya semakin lama semakin menurun, PT. Indotrans Data telah mampu menjalin usaha nya di bidang Internet Services Provider. Dengan tingkat laba yang di capai sebesar 30% diiringi dengan peningkatan kualitas layanan dengan memperluas jaringan fiber optic yang tidak hanya di kota-kota besar, PT. Indotrans Data kini semakin mengembangkan bisnis nya hinggal ke pelosok daerah dengan menggunakan serat optic.
 			Tentunya hal ini tidak luput dari dukungan dan kerjasama yang telah terjalin oleh para mitra kami.
 			Peningkatan layanan dan produk-produk unggulan IT lainnya yang tidak hanya internet, telah dimiliki PT. Indotrans Data dan mampu berkomitment untuk memenuhi kebutuhan para Pelanggannya. 
