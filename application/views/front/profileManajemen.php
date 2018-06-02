@@ -70,7 +70,7 @@
 	<figure class="row">
 	  <!-- Figure Image -->
 	  <div class="col-md-8 col-lg-4 g-mb-30">
-	    <img class="w-100" src="<?php echo base_url()?>assets/img/owner/dwi.jpg" alt="Image Description">
+	    <img class="w-100" src="<?php echo base_url()?>assets/img/owner/nino.png" alt="Image Description">
 	  </div>
 	  <!-- End Figure Image -->
 
